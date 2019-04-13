@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>CJ Dela Cruz - Resume</title>
+  <!-- Material Icons -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="iconfont/material-icons.css">
+  <link href="iconfont/mdi/css/materialdesignicons.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Material CSS -->
+  <link rel="stylesheet" type="text/css" href="css/material.min.css">
+  <!-- Particles CSS -->
+  <link rel="stylesheet" type="text/css" href="css/particles.css">
+  <!-- simplyCountdown CSS -->
+  <link rel="stylesheet" href="css/simplyCountdown.theme.default.css"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/styles-resume.css">
+</head>
+
+<body>
+  
+  <div class="height-full responsive-phone">
+    <div class="content-wrapper">
+        <section class="p-b-40 p-t-40 animatedParent animateOnce">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="text-center">
+                            <div class="p-t-b-40">
+                                
+                            </div>
+                            <h2 class="fadeInUpShort animated go">Currently under construction!</h2>
+                            <br>
+                            <p class="fadeInUpShort animated go">
+                                We`re working hard and believe we`ll launch the website in:</p>
+                            <br>
+                            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                              <div class="simply-countdown simply-countdown-one"></div>
+                            </div>
+                            <!--Grid column-->
+                              <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                                  <!--Facebook-->
+                                  <a class="h3 ml-0">
+                                      <i class="mdi mdi-facebook-box mr-2"></i>
+                                  </a>
+                                  <!--Twitter-->
+                                  <a class="h3">
+                                      <i class="mdi mdi-twitter-box mr-2"></i>
+                                  </a>
+                                  <!--Google +-->
+                                  <a class="h3">
+                                      <i class="mdi mdi-google-plus-box mr-2"></i>
+                                  </a>
+                                  <!--Github-->
+                                  <a class="h3">
+                                      <i class="mdi mdi-github-box mr-2"></i>
+                                  </a>
+                              </div>
+                              <!--Grid column-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+  <!-- Script -->
+  <!-- JQUERY -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Popper JS -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- Material JS -->
+  <script type="text/javascript" src="js/material.min.js"></script>
+  <!-- simplyCountdown JS -->
+  <script type="text/javascript" src="js/simplyCountdown.js"></script>
+  <script type="text/javascript" src="js/simplyCountdown.min.js"></script>
+  <script>
+  /**
+   * WARNING: I set this coundtown to be running until the end of times.
+   * So when you'll init the plugin, follow how it's done in plugin documentation.
+   * e.g : instead of "month: d.getMonth() + 1" put "month: 10" for October.
+   */
+  var d = new Date();
+    d.setDate(d.getDate() + 10);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+
+</script>
+</body>
+
+</html>
